@@ -30,8 +30,7 @@ def loadHangmanDrawings(hangmanDrawingsFilePath):
         return HangingMan
 
     except FileNotFoundError:
-        print(
-            f"File {hangmanDrawingsFilePath} Not Found... Exiting Application.")
+        print(f"File {hangmanDrawingsFilePath} Not Found... Exiting Application.")
         exit()
 
     except IOError:
