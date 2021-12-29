@@ -22,6 +22,7 @@ def loadHangmanDrawings(hangmanDrawingsFilePath):
     """
     This Will Load All Drawings of Hangman Into A List To Be Used Individually Depending On What Stage Of The Game The Player Is On.
     The Function Opens The File Stated In The Parameter titleFilePath And Splits Each Section Ending With Two New Lines Into Items In A List Called HangingMan.
+    Which Is Then Returned And Is Able To Be Called Later On.
     """
     try:
         File = open(hangmanDrawingsFilePath)
